@@ -1,0 +1,26 @@
+Day 1 ASSIGNMENTS
+
+ 1) 	Blockchain is a mix of technology. that is both distributed database and cryptography, where dustributed database comes on 1970 and cryptography from 1900 BC.
+ basically this blockchain is used to store data in security manner 
+
+
+ 2)core problems:
+	 Security
+	 Decentralization
+	 Authentication
+
+
+ 3) Verifiable
+    Unchangeable
+    Tamper proof
+    Immutable
+
+
+4) Block number
+   Records
+   Previous block signature
+   Mining key
+
+5)         the block chain is verified by block signatures.
+    for example : if data is ditributed to 5 computers will tell to create blocks and         signatures, then all computers should get the block signatures same if not there is       somthing wrong. 
+           current_block_signature=previous_block_signature+current_block_data
