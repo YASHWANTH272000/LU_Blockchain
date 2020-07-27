@@ -1,0 +1,38 @@
+pragma solidity ^0.4.17 <0.7.0;
+
+
+contract Student{
+  
+     string name;
+   
+     string Rollnumber;
+ 
+     uint Batch;
+ 
+     string marks;
+ 
+     string status;
+
+
+function Student(string newname,string newRollnumber, uint newBatch,string newmarks,string newstatus) public{
+
+    name=newname;
+  
+    Rollnumber=newRollnumber;
+   
+    Batch=newBatch;
+ 
+    marks=newmarks;
+  
+    status=newstatus;
+
+}
+
+
+function details() public view returns(string,string,uint,string,string){
+
+    return(name,Rollnumber,Batch,marks,status);
+ 
+}
+
+}
